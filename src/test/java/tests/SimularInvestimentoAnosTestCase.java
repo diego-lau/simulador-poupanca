@@ -10,7 +10,7 @@ import tasks.SimuladorTasks;
 public class SimularInvestimentoAnosTestCase extends Web {
 
     @Test
-    public void SimularInvestimentoAnos(){
+    public void simularInvestimentoAnos(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaVoceClick();
         simuladorTasks.informaValorAplicar("1000,00");

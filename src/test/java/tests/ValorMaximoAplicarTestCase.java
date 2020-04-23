@@ -9,7 +9,7 @@ import tasks.SimuladorTasks;
 public class ValorMaximoAplicarTestCase extends Web {
 
     @Test
-    public void ValorMaximoAplicar(){
+    public void valorMaximoAplicar(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaEmpresaClick();
         simuladorTasks.informaValorAplicar("999999999");

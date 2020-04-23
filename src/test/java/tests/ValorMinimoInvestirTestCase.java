@@ -9,7 +9,7 @@ import tasks.SimuladorTasks;
 public class ValorMinimoInvestirTestCase extends Web {
 
     @Test
-    public void ValorMinimoInvestir(){
+    public void valorMinimoInvestir(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaEmpresaClick();
         simuladorTasks.informaValorAplicar("20,00");

@@ -9,7 +9,7 @@ import tasks.SimuladorTasks;
 public class LimparFormularioTestCase extends Web {
 
     @Test
-    public void LimparFormulario(){
+    public void limparFormulario(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaEmpresaClick();
         simuladorTasks.informaValorAplicar("1000,00");
