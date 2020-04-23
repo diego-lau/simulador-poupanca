@@ -18,6 +18,5 @@ public class SimuladorApi {
                 .statusCode(200) // O status http retornado foi 200
                 .contentType(ContentType.JSON) // O response foi retornado no formato JSON
                 .body("id", is(1)) //A chave "id" contém o valor "1"
-                .body("meses")
     }
 }
