@@ -15,8 +15,10 @@ public class Web {
         navegador = Web.createChrome();
     }
 
+    private static String diretorioUsuario = System.getProperty("user.home");
+
     public static WebDriver createChrome() {
-        System.setProperty("webdriver.chrome.driver", "C:\\users\\diegob\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", diretorioUsuario + "\\driver\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
         navegador.manage().window().maximize();
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -27,9 +29,9 @@ public class Web {
     }
 
 
-//    @After
-//    public void tearDown(){
-//        navegador.quit();
-//    }
+    @After
+    public void tearDown(){
+        navegador.quit();
+    }
 
 }
