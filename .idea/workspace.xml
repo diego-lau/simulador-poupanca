@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b686f2c5-121c-4590-b680-929326d8bc5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/suporte/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/Web.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/api/SimuladorApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/api/SimuladorApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/suporte/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/suporte/Web.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/api/SimuladorApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tasks/api/SimuladorApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LimparFormularioTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LimparFormularioTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SimularInvestimentoAnosTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SimularInvestimentoAnosTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SimularTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SimularTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ValorMaximoAplicarTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ValorMaximoAplicarTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ValorMaximoInvestirTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ValorMaximoInvestirTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ValorMinimoAplicarTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ValorMinimoAplicarTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ValorMinimoInvestirTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ValorMinimoInvestirTestCase.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +38,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1adUoKJ2SxWC6nxBgALf4JAxXtf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
@@ -70,6 +65,22 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SimularTestCase.simular">
+    <configuration name="LimparFormularioTestCase.limparFormulario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simulador-investimento-poupanca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LimparFormularioTestCase" />
+      <option name="METHOD_NAME" value="limparFormulario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimuladorApi.conexaoSimulador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simulador-investimento-poupanca" />
       <extension name="coverage">
@@ -102,38 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimularInvestimentoAnosTestCase.SimularInvestimentoAnos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simulador-investimento-poupanca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SimularInvestimentoAnosTestCase" />
-      <option name="METHOD_NAME" value="SimularInvestimentoAnos" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimularTestCase.Simular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simulador-investimento-poupanca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SimularTestCase" />
-      <option name="METHOD_NAME" value="Simular" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimularTestCase.simular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simulador-investimento-poupanca" />
       <extension name="coverage">
@@ -150,13 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValorMinimoAplicarTestCase.valorMinimoAplicar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simulador-investimento-poupanca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ValorMinimoAplicarTestCase" />
+      <option name="METHOD_NAME" value="valorMinimoAplicar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SimularTestCase.simular" />
+        <item itemvalue="JUnit.LimparFormularioTestCase.limparFormulario" />
+        <item itemvalue="JUnit.ValorMinimoAplicarTestCase.valorMinimoAplicar" />
         <item itemvalue="JUnit.SimuladorApi.conexaoSimulador" />
         <item itemvalue="JUnit.SimuladorApi.getPageOneTest" />
-        <item itemvalue="JUnit.SimularInvestimentoAnosTestCase.SimularInvestimentoAnos" />
-        <item itemvalue="JUnit.SimularTestCase.Simular" />
       </list>
     </recent_temporary>
   </component>
@@ -183,5 +178,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
