@@ -6,17 +6,17 @@ import suporte.Web;
 import tasks.SimuladorTasks;
 
 
-public class ValorMinimoInvestirTestCase extends Web {
+public class ValorMaximoInvestirTestCase extends Web {
 
     @Test
-    public void ValorMinimoInvestir(){
+    public void ValorMaximoInvestir(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaEmpresaClick();
-        simuladorTasks.informaValorAplicar("20,00");
-        simuladorTasks.informaValorPoupar("19,00");
+        simuladorTasks.informaValorAplicar("1000,00");
+        simuladorTasks.informaValorPoupar("999999999");
         simuladorTasks.clickTempoPoupar();
 
-        Assert.assertEquals(simuladorTasks.checkValorMinimoInvestirLabel(), true);
+        Assert.assertEquals(simuladorTasks.checkValorMaximoInvestirError(), true);
 
     }
 

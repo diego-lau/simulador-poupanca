@@ -61,5 +61,12 @@ public class SimuladorFormObjects {
         return navegador.findElement(By.id("valorInvestir-error"));
     }
 
+    public WebElement valorMaximoAplicarError(){
+        return navegador.findElement(By.id("valorAplicar-error"));
+    }
+
+    public WebElement valorMaximoInvestirError(){
+        return navegador.findElement(By.id("valorInvestir-error"));
+    }
 
 }

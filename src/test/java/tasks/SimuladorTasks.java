@@ -86,4 +86,12 @@ public class SimuladorTasks {
         simulador.tempoPouparTextField().click();
     }
 
+    public boolean checkValorMaximoAplicarError(){
+        return simulador.valorMaximoAplicarError().isDisplayed();
+    }
+
+    public boolean checkValorMaximoInvestirError(){
+        return simulador.valorInvestirErrorLabel().isDisplayed();
+    }
+
 }

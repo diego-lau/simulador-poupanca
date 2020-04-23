@@ -6,16 +6,16 @@ import suporte.Web;
 import tasks.SimuladorTasks;
 
 
-public class ValorMinimoAplicarTestCase extends Web {
+public class ValorMaximoAplicarTestCase extends Web {
 
     @Test
-    public void ValorMinimoAplicar(){
+    public void ValorMaximoAplicar(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaEmpresaClick();
-        simuladorTasks.informaValorAplicar("19,99");
+        simuladorTasks.informaValorAplicar("999999999");
         simuladorTasks.clickValorInvestir();
 
-        Assert.assertEquals(simuladorTasks.checkValorMinimoAplicarLabel(), true);
+        Assert.assertEquals(simuladorTasks.checkValorMaximoAplicarError(), true);
 
     }
 

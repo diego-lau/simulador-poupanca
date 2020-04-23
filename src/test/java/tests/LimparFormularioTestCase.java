@@ -12,7 +12,7 @@ public class LimparFormularioTestCase extends Web {
     public void LimparFormulario(){
         SimuladorTasks simuladorTasks = new SimuladorTasks(navegador);
         simuladorTasks.perfilParaEmpresaClick();
-        simuladorTasks.informaValorAplicar("1.000,00");
+        simuladorTasks.informaValorAplicar("1000,00");
         simuladorTasks.informaValorPoupar("100,00");
         simuladorTasks.informaTempoPoupar("12");
         simuladorTasks.selecionaTempoPoupar("A");
