@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b686f2c5-121c-4590-b680-929326d8bc5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/suporte/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webobjects/ResultadoSimuladorFormObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webobjects/ResultadoSimuladorFormObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suporte/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/suporte/Web.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimularTestCase.simular">
+  <component name="RunManager" selected="JUnit.SimularInvestimentoAnosTestCase.simularInvestimentoAnos">
     <configuration name="LimparFormularioTestCase.limparFormulario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simulador-investimento-poupanca" />
       <extension name="coverage">
@@ -94,17 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimuladorApi.getPageOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimularInvestimentoAnosTestCase.simularInvestimentoAnos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simulador-investimento-poupanca" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.api.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tasks.api" />
-      <option name="MAIN_CLASS_NAME" value="tasks.api.SimuladorApi" />
-      <option name="METHOD_NAME" value="getPageOneTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimularInvestimentoAnosTestCase" />
+      <option name="METHOD_NAME" value="simularInvestimentoAnos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimularInvestimentoAnosTestCase.simularInvestimentoAnos" />
+        <item itemvalue="JUnit.ValorMinimoAplicarTestCase.valorMinimoAplicar" />
         <item itemvalue="JUnit.SimularTestCase.simular" />
         <item itemvalue="JUnit.LimparFormularioTestCase.limparFormulario" />
-        <item itemvalue="JUnit.ValorMinimoAplicarTestCase.valorMinimoAplicar" />
         <item itemvalue="JUnit.SimuladorApi.conexaoSimulador" />
-        <item itemvalue="JUnit.SimuladorApi.getPageOneTest" />
       </list>
     </recent_temporary>
   </component>

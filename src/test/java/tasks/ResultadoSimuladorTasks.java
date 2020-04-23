@@ -2,7 +2,6 @@ package tasks;
 
 import org.openqa.selenium.WebDriver;
 import webobjects.ResultadoSimuladorFormObjects;
-import webobjects.SimuladorFormObjects;
 
 public class ResultadoSimuladorTasks {
 
