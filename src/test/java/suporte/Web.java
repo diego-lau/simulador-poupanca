@@ -18,7 +18,6 @@ public class Web {
     private static String diretorioUsuario = System.getProperty("user.dir");
 
     public static WebDriver createChrome() {
-        System.out.println(diretorioUsuario);
         System.setProperty("webdriver.chrome.driver", diretorioUsuario + "\\driver\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
         navegador.manage().window().maximize();
